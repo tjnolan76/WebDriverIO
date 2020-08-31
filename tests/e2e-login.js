@@ -1,6 +1,7 @@
 import LoginPage from '../page-objects/pages/LoginPage'
 import NavBar from '../page-objects/components/NavBar'
 import App from '../page-objects/App'
+import config from '../lib/config'
 
 const { short, long } = require("../lib/timeouts")
 
