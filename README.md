@@ -1,4 +1,4 @@
-# WebDriverIO - Testing the WebAppSecurity test website
+# WebDriverIO - WebAppSecurity website testing
 
 WebDriverIO framework setup using Page-Object Model, Node.js, WebDriverIO v6, Javascript, Mocha
 Features include:
