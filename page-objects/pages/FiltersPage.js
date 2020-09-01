@@ -29,9 +29,6 @@ class FiltersPage extends Base {
     resultsTableIsVisible() {
         this.resultsTable.waitForExist()
     }
-
-
-
 }
 
 export default new FiltersPage()
