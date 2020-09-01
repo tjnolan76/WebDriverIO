@@ -1,4 +1,4 @@
-# WebDriverIO - WebAppSecurity website testing
+# WebDriverIO - ZeroBank website testing
 
 WebDriverIO framework setup using Page-Object Model, Node.js, WebDriverIO v6, Javascript, Mocha.
 
