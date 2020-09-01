@@ -28,6 +28,7 @@ class Exchange extends Base {
     clickCalculateButton() {
         this.calculateButton.waitForExist()
         this.calculateButton.click()
+
     }
 
     clickInUSDollar() {

@@ -24,7 +24,7 @@ describe('e2e Tests - Login / Logout Flow', ()=> {
         App.openHomePage()
         NavBar.clickSignIn()
         LoginPage.formIsVisible()
-        LoginPage.fillForm('username', 'password' )
+        LoginPage.fillForm(config.username, config.password)
         LoginPage.submitForm()
         NavBar.insideNavBarIsVisible()
     })
