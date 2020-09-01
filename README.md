@@ -6,6 +6,7 @@ Features include:
   - Working examples of test cases, test classes, page models, libraries, and components.
   - Setup for running tests in Parallel using multiple instances of Chrome.
   - Ability to take screenshots
+  
 Jenkins setup:
   - Download jenkins.war from jenkins.io
   - Add to root directory of this project
