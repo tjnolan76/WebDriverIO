@@ -25,3 +25,5 @@ Jenkins setup:
   - Click Save
   - You can now select the project and click 'Build Now'.
   If everything is setup properly, the test should now be running.
+  
+  *Built from exercises and knowledge learned at https://www.udemy.com/
