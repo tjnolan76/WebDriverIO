@@ -4,11 +4,16 @@
 	"description": "Automated Software Testing with WebDriverIO",
 	"main": "index.js",
 	"scripts": {
-		"test": "wdio wdio.conf.js"
+		"test": "wdio wdio.conf.js",
+		"smoke-test": "wdio run wdio.conf.js --spec e2e-login",
+		"start-jenkins-server": "java -jar jenkins.war --httpPort=8080 --enable-future-java"
+
 	},
 	"keywords": [
 		"Automation",
-		"WebDriver"
+		"WebDriverIO",
+		"Selenium",
+		"Testing"
 	],
 	"author": "TN",
 	"license": "ISC",

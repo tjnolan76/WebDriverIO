@@ -19,6 +19,18 @@ describe('e2e Tests - Login / Logout Flow', ()=> {
         expect(message).toHaveText('Login and/or password are wrong.')
     })
 
+    it('Should not login without credentials', () =>{
+        browser.maximizeWindow()
+        App.openHomePage()
+        NavBar.clickSignIn()
+        LoginPage.formIsVisible()
+        LoginPage.fillForm('', '')
+        LoginPage.submitForm()
+
+        const message = LoginPage.error
+        expect(message).toHaveText('Login and/or password are wrong.')
+    })
+
     it('Should login with valid credentials', () =>{
         browser.maximizeWindow()
         App.openHomePage()
